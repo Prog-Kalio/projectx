@@ -1,0 +1,601 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, Verdana, Sans-serif;
+}
+
+#gold-plate {
+	background-image: url("images/glitter.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	width: 99%;
+	margin: auto;
+
+}
+
+#main-container {
+	overflow: auto;
+	width: 80%;
+	background-color: rgb(19, 20, 19);
+	margin: auto;
+	padding: 5px 15px;
+}
+
+
+/* Section 1: For Logo, Search and Menu bar */
+.sect-1 {
+	width: 100%;
+	overflow: auto;
+	padding-top: 5px;
+	margin-top: 3px;
+}
+
+.logo {
+	width: 26%;
+	float: left;
+	height: 55px;
+}
+
+.logo img {
+	width: 70px;
+	height: 40px;
+	margin-right: 2px;
+	background-color: rgba(156, 105, 0, 0.3);
+	border-radius: 50%;
+}
+
+.logo span {
+	color: rgb(215, 166, 30);
+	font-size: 20px;
+	font-weight: bold;
+	padding: 3px;
+}
+.logo a[href="index.html"] {
+	text-decoration: none;
+}
+.search-bar {
+	border: none;
+	width: 20%;
+	float: left;
+	padding: 10px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.search-bar input[name="search"] {
+	border: 1px solid rgb(215, 166, 30);
+	width: 150px;
+	height: 25px;
+}
+
+.menu {
+	width: 49%;
+	float: right;
+	padding: 2px 3px;
+	height: 55px;
+}
+
+.menu ul {
+	list-style-type: none;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.menu ul li {
+	display: inline-block;
+	padding: 8px;
+	background-color: rgba(156, 105, 0, 0.3);
+	border-radius: 5px;
+	width: 74px;
+	text-align: center;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: rgb(216,197, 107);
+}
+
+.menu ul li.home {
+	background-color: rgb(156, 105, 0);
+}  
+
+.menu ul li.home a {
+	color: rgba(254, 253, 208, 0.8);
+}
+
+.menu ul li:hover {
+	background-color: rgb(215, 166, 30);
+}
+
+.menu ul li a:hover {
+	color: rgb(254, 253, 208);
+	font-weight: bold;
+}
+
+.float-clearer {
+	clear: both;
+}
+
+
+
+/* Section 2: For Banner section  */
+.sect-2 {
+	width: 95%;
+	height: 600px;
+	background-image: url("images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+	background-attachment: fixed;
+}
+
+.veil-div {
+	width: 100%;
+	height: 600px;
+	background-color: (0, 0, 0, 0.4);
+
+}
+
+#formSlogan-div {
+	width: 80%;
+	overflow: auto;
+	margin: auto;
+}
+
+.form-div {
+	float: left;
+	width: 59%;
+	height: 250px;
+	margin-top: 20%;
+	background: linear-gradient(to top, black, rgba(156, 105, 0, 0.3));
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.form-div form span input{
+	padding: 5px;
+	background-color: rgba(156, 105, 0, 0.3);
+	color: rgb(215, 166, 30);
+}
+
+.form-div form span input:hover{
+	background-color: rgb(215, 166, 30);
+	color: rgb(254, 253, 208);
+	font-weight: bold;
+}
+
+
+.form-div form h3 {
+	text-transform: uppercase;
+}
+
+.form-div form p input {
+	padding: 5px;
+}
+
+.form-div form p select {
+	padding: 5px;
+}
+
+.form-div form p {
+	padding-top: 10px;
+}
+
+.slogan {
+	float: right;
+	width: 37%;
+	height: 255px;
+	margin-top: 20%;
+	text-align: center;
+	background: linear-gradient(to top, black, rgba(156, 105, 0, 0.3));
+}
+
+.slogan p img {
+	width: 100px;
+	height: 100px;
+}
+
+.slogan p#logo-text {
+	color: rgb(215, 166, 30);
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+.slogan p#request {
+	color: rgb(254, 253, 208);
+	padding: 5px;
+}
+
+
+
+
+/* Section 3: For About Us, Gold and Store section  */
+.sect-3 {
+	width: 100%;
+	height: 450px;
+	overflow: auto;
+	position: relative;
+	padding-top: 10px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sect-3 .about-us {
+	width: 27%;
+	height: 350px;
+	background-color: #e7f59e;
+	position: absolute;
+	top: 15%;
+	left: 30px;
+	border-radius: 7px;
+	box-shadow: 10px 8px 5px rgba(233, 241, 238, 0.4);
+	text-align: center;
+}
+
+.sect-3 .gold {
+	width: 27%;
+	height: 350px;
+	background-color: #e7f59e;
+	position: absolute;
+	top: 15%;
+	left: 37%; 
+	border-radius: 7px;
+	box-shadow: 10px 8px 5px rgba(233, 241, 238, 0.4);
+	text-align: center;
+}
+
+.sect-3 .store {
+	width: 27%;
+	height: 350px;
+	background-color: #e7f59e;
+	position: absolute;
+	top: 15%;
+	right: 30px;
+	border-radius: 7px;
+	box-shadow: 10px 8px 5px rgba(233, 241, 238, 0.4);
+	text-align: center;
+}
+
+.sect-3 .about-us h3, .gold h3, .store h3 {
+	text-transform: uppercase;
+	font-style: underline;
+	padding: 6px;
+}
+
+.sect-3 .about-us img, .gold img, .store img  {
+	width: 100%;
+	height: 210px;
+}
+
+.sect-3 .about-us p, .gold p, .store p {
+	color: rgba(0, 0, 0, 0.8);
+	padding: 5px;
+	
+}
+
+.sect-3 .about-us p button, .gold p button, .store p button {
+	background-color: rgb(156, 105, 0);
+	color: rgba(254, 253, 208, 0.8);
+	padding: 8px 12px;
+	text-transform: uppercase;
+}
+
+.sect-3 .about-us p button:hover, .gold p button:hover, .store p button:hover {
+	color: rgb(254, 253, 208);
+	font-weight: bold;
+	background-color: rgb(215, 166, 30);
+	font-size: 17px;
+}
+
+/* Section 4: was deliberately deleted till I'm very proficient */
+
+
+/* Section 5: For summary details  */
+.sect-5 {
+	width: 98%;
+	height: 300px;
+	background: radial-gradient(ellipse, rgba(156, 105, 0, 0.3), black, rgba(156, 105, 0, 0.3), black, rgba(156, 105, 0, 0.3));
+	margin: auto;
+	position: relative;
+}
+
+.sect-5 .summary-1 {
+	width: 40%;
+	height: 250px;
+	position: absolute;
+	top: 5%;
+	left: 15px;
+	padding: 10px;
+	color: rgba(254, 253, 208, 0.8);
+}
+
+.sect-5 .summary-1 ul {
+	list-style-type: none;
+	margin-top: 20%;
+}
+
+.sect-5 .summary-1 ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.sect-5 .summary-1 ul li a {
+	color: rgba(254, 253, 208, 0.8);
+	padding: 4px;
+}
+
+.sect-5 .summary-1 ul li a:hover {
+	border: 2px dashed white;
+	padding: 6px;
+}
+
+.sect-5 .summary-2 {
+	width: 17%;
+	height: 250px;
+	background-image: url("images/money.png");
+	background-size: 100% 250px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5%;
+	left: 47.5%;
+	border-radius: 5px;
+	padding: 10px;
+	color: rgba(254, 253, 208, 0.8);
+}
+
+.action-1 p a button {
+	padding: 10px;
+	width: 130px;
+}
+
+.action-1 p a button[name="btn-2"]  {	
+	color: rgb(254, 253, 208);
+	background-color: rgb(215, 166, 30);
+}
+
+.action-1 p a button[name="btn-2"]:hover  {	
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+.action-1 p a button:hover {	
+	color: rgb(254, 253, 208);
+	background-color: rgb(215, 166, 30);
+}
+
+.action-1 p {
+	padding-top: 8px;
+	padding-left: 18px;
+}
+
+.sect-5 .summary-3 {
+	width: 26%;
+	height: 250px;
+	position: absolute;
+	top: 5%;
+	right: 10px;
+	padding: 10px;
+	color: rgba(254, 253, 208, 0.8);
+	line-height: 17px;
+}
+
+
+/* Section 6: For social Links  */
+.sect-6 {
+	width: 40px;
+	height: 155px;
+	margin: auto;
+	position: fixed;
+	right: 6%;
+	bottom: 5%;
+	background-color: rgb(254, 253, 208);
+	text-align: center;
+}
+
+.sect-6 img {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+hr {
+	color: rgba(255, 255, 255, 0.6);
+	font-weight: bold;
+	width: 98%;
+	margin: auto;
+}
+
+
+/* Section 7: For Footer */
+.sect-7 {
+	width: 98%;
+	height: 50px;
+	background: linear-gradient(to top, black, rgba(156, 105, 0, 0.3));
+	margin: auto;
+}
+
+.sect-7 p {
+	text-align: center;
+	padding: 10px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Section 8: For the Banner section of About Us, Store, Gold and Contact Us pages  */
+
+.sect-8 {
+	width: 98%;
+	margin: auto;
+	background-image: url("images/banner-2.jpg");
+	background-size: 100% 200px;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+
+.sect-8 .banner-text {
+	width: 80%;
+	margin: auto;
+	height: 100px;
+}
+
+.sect-8 .banner-text h2 {
+	text-align: center;
+	font-size: 50px;
+	color: rgba(254, 253, 208, 0.8);
+}
+
+
+/* Section 9: This div is for About Us section alone */
+.sect-9 {
+	width: 98%;
+	margin: auto;
+	height: 500px;
+	position: relative;
+}
+
+.sect-9 .about-text {
+	position: absolute;
+	top: 8%;
+	left: 0%;
+	width: 43%;
+	height: 350px;
+	background: linear-gradient(45deg, rgb(254,253,208), black, rgba(156, 105, 0, 0.3), rgba(156, 105, 0, 0.3), transparent);
+	color: rgba(254, 253, 208, 0.8);
+	padding: 10px;
+	line-height: 22px;
+}
+
+.sect-9 .about-text p span#span-text {
+	float: left;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.sect-9 .about-img {
+	position: absolute;
+	top: 8%;
+	right: 0%;
+	width: 50%;
+	height: 350px;
+	border-right: 1px solid yellow;
+	background: linear-gradient(to left, rgb(254,253,208), rgb(53,44,42));
+	padding: 10px;
+}
+
+.sect-9 .about-img img {
+	width: 100%;
+	height: 350px;
+}
+
+
+/* Section 10: This div is for Gold types section alone */
+.sect-10 {
+	width: 98%;
+	margin: auto;
+	height: 1000px;
+	position: relative;
+}
+
+.sect-10 .gold-1 {
+	width: 45%;
+	height: 400px;
+	position: absolute;
+	top: 5%;
+	left: 1%;
+}
+
+.sect-10 .gold-2 {
+	width: 45%;
+	height: 400px;
+	position: absolute;
+	top: 5%;
+	right: 1%;
+}
+
+.sect-10 .gold-3 {
+	width: 45%;
+	height: 400px;
+	position: absolute;
+	bottom: 5%;
+	left: 1%;
+}
+
+.sect-10 .gold-4 {
+	width: 45%;
+	height: 400px;
+	position: absolute;
+	bottom: 5%;
+	right: 1%;
+}
+
+.sect-10 .gold-1 img, .gold-2 img, .gold-3 img, .gold-4 img {
+	width: 100%;
+	height: 300px;
+	
+}
+
+.sect-10 .gold-1 h3, .gold-2 h3, .gold-3 h3, .gold-4 h3 {
+	color: rgba(254, 253, 208, 0.8);
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline overline;
+}
+
+.sect-10 .gold-1 p, .gold-2 p, .gold-3 p, .gold-4 p {
+	color: rgba(254, 253, 208, 0.8);
+	font-weight: bold;
+}
+
+/* Section 11: This div is for contact us page alone */
+
+.sect-11 {
+	width: 98%;
+	height: 550px;
+	position: relative;
+	margin-top: 20px;
+}
+
+.sect-11 .contact-1 {
+	width: 40%;
+	height: 450px;
+	border: 1px solid rgb(254, 253, 208);
+	position: absolute;
+	left: 2%;
+	top: 3%;
+	padding: 10px;
+}
+
+.sect-11 .contact-2 {
+	width: 50%;
+	height: 450px;
+	position: absolute;
+	right: 2%;
+	top: 3%;
+}
+
+.sect-11 .contact-1 form[name="contact-form"] {
+	background-color: rgba(254, 253, 208, 0.6);
+	margin-top: 15px;
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+.sect-11 .contact-1 h3 {
+	color: rgb(226,171,46);
+}
+
+.sect-11 .contact-1 p {
+	color: rgba(254, 253, 208, 0.8);
+	padding-top: 10px;
+}
+
+.sect-11 .contact-1 p input[type="text"] {
+	width: 200px;
+	height: 25px;
+}
